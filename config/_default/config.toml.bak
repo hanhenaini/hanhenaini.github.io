@@ -23,6 +23,22 @@ theme = "github.com/CaiJimmy/hugo-theme-stack/v3"
     url = "/about/"
     weight = 10
 [params.comments]
+  # 当前禁用评论，Hugo 不会渲染任何评论 partial
+  provider = "none"
   enable = false
 
+  # 如果以后想开启 Disqus，只需启用并填写 shortname
+  # provider = "disqus"
+  # enable = true
+  # shortname = "你的disqus短名称"
 
+  # 如果想用 Gitalk
+  # provider = "gitalk"
+  # enable = true
+  # clientID = "你的GitHub OAuth App Client ID"
+  # clientSecret = "你的GitHub OAuth App Client Secret"
+  # repo = "你的仓库"
+  # owner = "你的 GitHub 用户名"
+  # admin = ["你的 GitHub 用户名"]
+enable = false
+enable = false

@@ -1,7 +1,6 @@
 baseURL = "https://hanhenaini.github.io/"
 languageCode = "zh-cn"
 title = "寒 | 全栈工程师 | 新西兰"
-theme = "github.com/CaiJimmy/hugo-theme-stack/v3"
 
 [params]
     author = "寒"
@@ -22,7 +21,12 @@ theme = "github.com/CaiJimmy/hugo-theme-stack/v3"
     name = "关于我"
     url = "/about/"
     weight = 10
-[params.comments]
-  enable = false
 
+  [[menu.main]]
+    identifier = "projects"
+    name = "项目"
+    url = "/projects/"
+    weight = 20
 
+# 关闭 Google Analytics
+googleAnalytics = ""
