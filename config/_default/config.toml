@@ -1,28 +1,14 @@
 baseURL = "https://hanhenaini.github.io/"
 languageCode = "zh-cn"
 title = "寒 | 全栈工程师 | 新西兰"
-theme = "github.com/CaiJimmy/hugo-theme-stack/v3"
 
 [params]
-    author = "寒"
-    description = "28岁全栈工程师，现居新西兰，专注 React/Node.js，热爱旅行与代码"
+  author = "寒"
+  description = "28岁全栈工程师，现居新西兰，专注 React/Node.js，热爱旅行与代码"
 
 [params.profileMode]
-    enabled = true
-    title = "你好，我是 寒"
-    subtitle = "程序员 · 终身学习者 · 热爱旅行与代码"
-    imageUrl = "/images/avatar.png"
-    imageTitle = "寒"
-    imageWidth = 160
-    imageHeight = 160
-
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "关于我"
-    url = "/about/"
-    weight = 10
-[params.comments]
-  enable = false
-
+  enabled = true
+  title = "你好，我是 寒"
+  subtitle = "程序员 · 终身学习者 · 热爱旅行与代码"
+  imageUrl = "/images/avatar.png"
 
